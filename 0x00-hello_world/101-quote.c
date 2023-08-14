@@ -1,14 +1,23 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - its is program that prints a line
- * Return: 1
+ * main - Entry point
+ * Description: 'A program that prints numbers of base 16'
+ * Return: always 0
  */
 int main(void)
 {
-	char *text = "and that piece of art is useful\" - Dora Korpar,
-	2015-10-19\n";
+        int n;
+        int p;
 
-write(2, text, strlen(text);
-	return (1);
+        for (n = 48; n <= 57; n++)
+        {
+                putchar(n);
+        }
+        for (p = 97; p <= 102; p++)
+        {
+                putchar(p);
+        }
+        putchar('\n');
+        return (0);
 }
+
