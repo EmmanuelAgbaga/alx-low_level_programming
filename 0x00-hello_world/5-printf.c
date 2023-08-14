@@ -1,17 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: 'A program that prints all single digit number'
- * Return: always 0
+ * main - A program that prints a line using printf function
+ * Return: 0
  */
+
 int main(void)
 {
-        int n;
-
-        for (n = 0; n < 10; n++)
-        {
-                printf("%d", n);
-        }
-        printf("\n");
-       return (0);
+printf("with proper grammar, but the outcome is a piece art,\n");
+return (0);
 }
