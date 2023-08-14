@@ -1,21 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Description: 'A program that prints numbers of base 16'
- * Return: always 0
+ * main - A program that prints a line to the standard error
+ * Return: 1
  */
+
 int main(void)
 {
-        int n;
-        int p;
-
-        for (n = 48; n <= 57; n++)
-{
-                putchar(n);
+fputs("and that piece of art is seful\" - Dora Korpar, 2015-10-19\n", stdout);
+return (1);
 }
-        for (p = 97; p <= 102; p++)
-                putchar(p);}
-        putchar('\n');
-        return (0);
-}
-
